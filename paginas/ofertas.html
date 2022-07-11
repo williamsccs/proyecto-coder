@@ -1,131 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Staatliches&display=swap" rel="stylesheet">
-    <!-- CSS -->
-    <link rel="stylesheet" href="../style.css">
-    <title>Motorola</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entregable Coder House">
+  <meta name="keywords" content="Entregable Coder House">
+  <meta property="og:title" content="Entregable Coder House">
+  <meta property="og:type" content="website">
+  <meta property="og:image"
+    content="https://armoto.vtexassets.com/arquivos/c-rd-motorola@2x.png?v=637459707056400000" />
+  <meta property="og:image:url" itemprop="image"
+    content="https://armoto.vtexassets.com/arquivos/c-rd-motorola@2x.png?v=637459707056400000">
+  <!-- <meta property="og:url" content="">
+  SI LO HOSTEAS EN GH PAGES O NETLIFY O VERCEL AHI VA EL LINK
+  -->
+  <link rel="shortcut icon" href="https://motorolaimgrepo.vtexassets.com/arquivos/motorola-2.svg">
 
-  <body>
-    <header class="encabezado">
-      <!-- logo -->
-      <section class="logo_h1">
-        <a href="../index.html" class="logo_h1">
-          <img src="../imagenes/Motorola-emblema.jpeg" alt="Logo de mi pagina" class="logo">
+  <meta property="og:site_name" content="Motorola">
+  <meta name="author" content="Williams Fuentes">
+  <meta name="copyright" content="Williams Fuentes">
+
+  <!-- ESTILOS -->
+  <link rel="stylesheet" href="../style.css">
+  <!-- ICONOS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Motorola</title>
+
+</head>
+
+<body>
+  <header class="header">
+    <div class="wrapper">
+      <div class="header-content">
+        <a href="../index.html" target="_blank" rel="noopener noreferrer">
+          <img src="../imagenes/logo-moto.png" alt="Logo Motorola width=" 150" height="30" class="logoNav">
         </a>
-        <h1>Venta de Celulares y TV's (MOTO)</h1>
-      </section>
-      <!-- Navigation -->
-      <nav class="navegacion">
-        <ul class="encabezado__lista">
-          <li class="encabezado__lista__item">
-            <a href="./categorias.html">
-              Categorias
-            </a>
-          </li>
-          <li class="encabezado__lista__item">
-            <a href="#">
-              Ofertas
-            </a>
-          </li>
-          <li class="encabezado__lista__item">
-            <a href="./contacto.html">
-              Contactanos
-            </a>
-          </li>
-          <li class="encabezado__lista__item">
-            <a href="./ubicanos.html">
-              Ubicanos
-            </a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="background">
-      <!-- Aqui todo lo demas -->
-      <section>
-        <h2 class="h2__contacto">Tabla de ofertas</h2>
-        <table cellspacing="0" border="1" cellpadding="25" class="styled__table">
-          <tr>
-            <th>Foto</th>
-            <th>Modelo</th>
-            <th>Categoria</th>
-            <th>Precio</th>
-            <th>Descuento</th>
-            <th>Total</th>
-          </tr>
-          <tr>
-            <td>UNDEFINED</td>
-            <td>g72</td>
-            <td>Bateria</td>
-            <td>100.000 $</td>
-            <td>15%</td>
-            <td>85.000 $</td>
-          </tr>
-          <tr>
-            <td>UNDEFINED</td>
-            <td>g71</td>
-            <td>Pantalla</td>
-            <td>80.0000 $</td>
-            <td>10%</td>
-            <td>72.000 $</td>
-          </tr>
-          <tr>
-            <td>UNDEFINED</td>
-            <td>g50</td>
-            <td>Pantalla</td>
-            <td>70.000 $</td>
-            <td>10%</td>
-            <td>63.000 $</td>
-          </tr>
-          <tr>
-            <td>UNDEFINED</td>
-            <td>edge30</td>
-            <td>Premium</td>
-            <td>150.000 $</td>
-            <td>20%</td>
-            <td>120.000 $</td>
-          </tr>
-        </table>
+        <nav class="menu" aria-label="main-navigation">
+          <ul>
+            <li><a href="../index.html">Inicio</a></li>
+            <li><a href="./categoriasN.html">Categorías</a></li>
+            <li><a href="./ofertas.html">Ofertas</a></li>
+            <li><a href="./contacto.html">Contacto</a></li>
+          </ul>
+        </nav>
 
-      </section>
-    </main>
-    <footer class="foot">
-      <ul class="foot__lista">
-        <!-- agregarle logos a estas paginas -->
-        <li class="foot__lista__item">
-          <a href="https://www.facebook.com/williamsccs/" target="_blank">
-            <img src="../imagenes/facebook-logo.png" alt="logo de facebook" class="icon">
-          </a>
-        </li>
-        <li class="foot__lista__item">
-          <a href="https://www.instagram.com/williamsccs" target="_blank">
-            <img src="../imagenes/instagram-logo.png" alt="logo de Instagram" class="icon">
-          </a>
-        </li>
-        <li class="foot__lista__item">
-          <a href="https://www.twitter.com/williamsccs" target="_blank">
-            <img src="../imagenes/twitter-logo.png" alt="logo de twitter" class="icon">
-          </a>
-        </li>
-        <li class="foot__lista__item">
-          <a href="https://www.WhatsApp.com/williamsccs" target="_blank">
-            <img src="../imagenes/whatsapp-logo.png" alt="logo de WhatsApp" class="icon">
-          </a>
-        </li>
-      </ul>
-      <section>
-        <p class="textFooter">© Copyright 2022 Motorola. All Rights Reserved.</p>
-      </section>
-    </footer>
-  </body>
+        <!-- MENU MOBILE -->
+        <input type="checkbox" id="toggle" class="input-toggler">
+        <label for="toggle" class="menu-toggler">
+          <span class="menu-toggler-line"></span>
+          <span class="menu-toggler-line"></span>
+          <span class="menu-toggler-line"></span>
+        </label>
+
+        <aside class="sidebar">
+          <ul class="menu">
+            <li><a class="menu-link" href="../index.html">Inicio</a></li>
+            <li><a class="menu-link" href="./categoriasN.html">Categorías</a></li>
+            <li><a class="menu-link" href="./ofertas.html">Ofertas</a></li>
+            <li><a class="menu-link" href="./contacto.html">Contacto</a></li>
+          </ul>
+        </aside>
+      </div>
+    </div>
+  </header>
+  <div class="wrapper">
+    <div class="grid-container">
+      <div class="grid-item">
+
+        <p>Oferta de la semana</p>
+        <img
+          src="https://armoto.vtexassets.com/arquivos/ids/162313-800-auto?v=637904830518430000&width=800&height=auto&aspect=true"
+          alt="Motorola" width="300" height="300">
+        <p>$50000</p>
+      </div>
+      <div class="grid-item">
+
+        <p>Oferta de la semana</p>
+        <img
+          src="https://armoto.vtexassets.com/arquivos/ids/162313-800-auto?v=637904830518430000&width=800&height=auto&aspect=true"
+          alt="Motorola" width="300" height="300">
+        <p>$50000</p>
+      </div>
+      <div class="grid-item">
+
+        <p>Oferta de la semana</p>
+        <img
+          src="https://armoto.vtexassets.com/arquivos/ids/162313-800-auto?v=637904830518430000&width=800&height=auto&aspect=true"
+          alt="Motorola" width="300" height="300">
+        <p>$50000</p>
+      </div>
+      <div class="grid-item">
+
+        <p>Oferta de la semana</p>
+        <img
+          src="https://armoto.vtexassets.com/arquivos/ids/162313-800-auto?v=637904830518430000&width=800&height=auto&aspect=true"
+          alt="Motorola" width="300" height="300">
+        <p>$50000</p>
+      </div>
+      <div class="grid-item">
+
+        <p>Oferta de la semana</p>
+        <img
+          src="https://armoto.vtexassets.com/arquivos/ids/162313-800-auto?v=637904830518430000&width=800&height=auto&aspect=true"
+          alt="Motorola" width="300" height="300">
+        <p>$50000</p>
+      </div>
+      <div class="grid-item">
+
+        <p>Oferta de la semana</p>
+        <img
+          src="https://armoto.vtexassets.com/arquivos/ids/162313-800-auto?v=637904830518430000&width=800&height=auto&aspect=true"
+          alt="Motorola" width="300" height="300">
+        <p>$50000</p>
+      </div>
+
+
+    </div>
+  </div>
+  <footer>
+    <section class="footeerNav">
+      <p class="copyR ">Copyright 2022. Todos los derechos reservados</p>
+      <div class="left">
+        <img src="../imagenes/logo-moto.png" width="147" height="27" alt="logo Motorola">
+        <div class="iconsSocial">
+          <ul>
+            <li> <a href="#" target="_blank" rel="noopener noreferrer"> <i
+                  class="fa-brands fa-facebook-square fa-xl"></i></a>
+            </li>
+            <li> <a href="#" target="_blank" rel="noopener noreferrer"> <i
+                  class="fa-brands fa-youtube-square fa-xl"></i></a>
+            </li>
+            <li> <a href="#" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-twitter fa-xl"></i></a>
+            </li>
+            <li> <a href="#" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-pinterest fa-xl"></i></a>
+            </li>
+            <li> <a href="#" target="_blank" rel="noopener noreferrer"> <i
+                  class="fa-brands fa-instagram  fa-xl"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="center">
+        <ul>
+          <li><a href="../index.html">Inicio</a></li>
+          <li><a href="./categoriasN.html">Categorias</a></li>
+          <li><a href="./ofertas.html">Ofertas</a></li>
+
+        </ul>
+
+        <ul class="ul2">
+          <li><a href="./contacto.html">Contacto</a></li>
+          <li><a href="./legales.html">Legales</a></li>
+        </ul>
+      </div>
+
+      <p class="noneDesk">Copyright 2022. Todos los derechos reservados</p>
+
+    </section>
+
+  </footer>
+</body>
 
 </html>
