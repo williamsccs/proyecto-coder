@@ -1,139 +1,161 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Entregable Coder House">
-  <meta name="keywords" content="Entregable Coder House">
-  <meta property="og:title" content="Entregable Coder House">
-  <meta property="og:type" content="website">
-  <meta property="og:image"
-    content="https://armoto.vtexassets.com/arquivos/c-rd-motorola@2x.png?v=637459707056400000" />
-  <meta property="og:image:url" itemprop="image"
-    content="https://armoto.vtexassets.com/arquivos/c-rd-motorola@2x.png?v=637459707056400000">
-  <!-- <meta property="og:url" content="">
-  GH PAGES O NETLIFY O VERCEL AQUI
-  -->
-  <link rel="shortcut icon" href="https://motorolaimgrepo.vtexassets.com/arquivos/motorola-2.svg">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Staatliches&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="../style.css">
+    <title>Motorola</title>
+  </head>
 
-  <meta property="og:site_name" content="Motorola">
-  <meta name="author" content="Williams Fuentes">
-  <meta name="copyright" content="Williams Fuentes">
-
-  <!-- ESTILOS -->
-  <link rel="stylesheet" href="../style.css">
-  <!-- ICONOS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
-    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <title>Motorola</title>
-
-</head>
-
-<body>
-  <header class="header">
-    <div class="wrapper">
-      <div class="header-content">
-        <a href="../index.html" rel="noopener noreferrer">
-          <img src="../imagenes/logo-moto.png" alt="Logo Motorola width=" 150" height="30" class="logoNav">
+  <body>
+    <header class="encabezado">
+      <!-- logo -->
+      <section class="logo_h1">
+        <a href="../index.html" class="logo_h1">
+          <img src="../imagenes/Motorola-emblema.jpeg" alt="Logo de mi pagina" class="logo">
         </a>
-        <nav class="menu" aria-label="main-navigation">
-          <ul>
-            <li><a href="../index.html">Inicio</a></li>
-            <li><a href="./categoriasN.html">Categorías</a></li>
-            <li><a href="./ofertas.html">Ofertas</a></li>
-            <li><a href="./contacto.html">Contacto</a></li>
-          </ul>
-        </nav>
-
-        <!-- MENU MOBILE -->
-        <input type="checkbox" id="toggle" class="input-toggler">
-        <label for="toggle" class="menu-toggler">
-          <span class="menu-toggler-line"></span>
-          <span class="menu-toggler-line"></span>
-          <span class="menu-toggler-line"></span>
-        </label>
-
-        <aside class="sidebar">
-          <ul class="menu">
-            <li><a class="menu-link" href="../index.html">Inicio</a></li>
-            <li><a class="menu-link" href="./categoriasN.html">Categorías</a></li>
-            <li><a class="menu-link" href="./ofertas.html">Ofertas</a></li>
-            <li><a class="menu-link" href="#">Contacto</a></li>
-          </ul>
-        </aside>
-      </div>
-    </div>
-  </header>
-  <div class="wrapper">
-    <h1 class="contacTitle">Econtranos en nuestras sucursales o escribinos</h1>
-    <section aria-label="main" class="containerForm">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d23373.80198959547!2d-58.52948459699324!3d-34.51736415312413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb0ee292497e9%3A0xf9a611e58747f528!2sUnicenter!5e0!3m2!1ses-419!2sar!4v1656888433398!5m2!1ses-419!2sar"
-        width="auto" height="auto" style="border:0;" allowfullscreen="true" loading="lazy"
-        referrerpolicy="no-referrer-when-downgrade" class="map"></iframe>
-
-      <form action="" method="POST" id="form" class="form">
-        <div class="form-content">
-          <label for="name">Nombre Completo
-            <input type="text" name="name" id="name" placeholder="Ingresa tu nombre" required>
-          </label>
-          <label for="email">Correo electrónico
-            <input type="email" name="email" id="email" placeholder="Ingresa tu E-Mail" required>
-          </label>
-          <label for="message">Mensaje
-            <textarea name="message" id="message" cols="auto" rows="10" required></textarea>
-          </label>
-          <div class="btnContainer">
-            <button class="buttonGetStarted2" type="submit">Enviar Mensaje</button>
-          </div>
-      </form>
-    </section>
-  </div>
-  <footer>
-    <section class="footeerNav">
-      <p class="copyR ">Copyright 2022. Todos los derechos reservados</p>
-      <div class="left">
-        <img src="../imagenes/logo-moto.png" width="147" height="27" alt="logo Motorola">
-        <div class="iconsSocial">
-          <ul>
-            <li> <a href="https://www.facebook.com/williamsccs" target="_blank" rel="noopener noreferrer"> <i
-                  class="fa-brands fa-facebook-square fa-xl"></i></a>
-            </li>
-            <li> <a href="https://www.youtube.com/williamsccs" target="_blank" rel="noopener noreferrer"> <i
-                  class="fa-brands fa-youtube-square fa-xl"></i></a>
-            </li>
-            <li> <a href="https://www.twitter.com/williamsccs" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-twitter fa-xl"></i></a>
-            </li>
-            <li> <a href="https://www.pinterest.com/williamsccs" target="_blank" rel="noopener noreferrer"> <i class="fa-brands fa-pinterest fa-xl"></i></a>
-            </li>
-            <li> <a href="https://www.instagram.com/williamsccs" target="_blank" rel="noopener noreferrer"> <i
-                  class="fa-brands fa-instagram  fa-xl"></i></a>
-            </li>
-          </ul>
+        <h1>Venta de Celulares y TV's (MOTO)</h1>
+      </section>
+      <!-- Navigation -->
+      <nav class="navegacion">
+        <ul class="encabezado__lista">
+          <li class="encabezado__lista__item">
+            <a href="./categorias.html">
+              Categorias
+            </a>
+          </li>
+          <li class="encabezado__lista__item">
+            <a href="./ofertas.html">
+              Ofertas
+            </a>
+          </li>
+          <li class="encabezado__lista__item">
+            <a href="#">
+              Contactanos
+            </a>
+          </li>
+          <li class="encabezado__lista__item">
+            <a href="./ubicanos.html">
+              Ubicanos
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="background">
+      <!-- Aqui todo lo demas -->
+      <form class="fomulario">
+        <div>
+          <p class="titulo__contacto">
+            Helpful Information
+          </p>
         </div>
-      </div>
-      <div class="center">
-        <ul>
-          <li><a href="../index.html">Inicio</a></li>
-          <li><a href="./categoriasN.html">Categorias</a></li>
-          <li><a href="./ofertas.html">Ofertas</a></li>
+        <dir>
+          <p class="etiqueta__contacto">Phone</p>
+        </dir>
+        <div>
+          <p class="label__contacto__info">
+            2387-2387
+          </p>
+        </div>
+        <div>
+          <p class="etiqueta__contacto">
+            Address
+          </p>
+        </div>
+        <div>
+          <p class="label__contacto__info">
+            CABA - Bla Bla Bla
+          </p>
+        </div>
+        <div>
+          <p class="etiqueta__contacto">
+            Horario
+          </p>
+        </div>
+        <div>
+          <p class="label__contacto__info">
+            10 AM - 4 PM
+          </p>
+        </div>
+        <div class="block">
+          <label for="name" class="label__input">
+            Nombre:
+          </label>
+          <input type="text" placeholder="Nombre completo">
+        </div>
+        <div class="block">
+          <label for="email" class="label__input">Email:</label>
+          <input type="email" id="email" placeholder="email" class="input__form">
+        </div>
+        <div>
+          <label for="mensaje" class="etiqueta__contacto">Dejanos tu consulta:</label>
+          <!-- <textarea type="text" id="mensaje"> -->
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+        </div>
+        <input type="radio" id="masculino" name="genero">
+        <label for="masculino" class="etiqueta__contacto">Hombre</label>
+        <input type="radio" id="femenino" name="genero">
+        <label for="femenino" class="etiqueta__contacto">Mujer</label>
+        <input type="radio" id="otro" name="genero">
+        <label for="otro" class="etiqueta__contacto">Otro</label>
 
-        </ul>
 
-        <ul class="ul2">
-          <li><a href="./contacto.html">Contacto</a></li>
-          <li><a href="./legales.html">Legales</a></li>
-        </ul>
-      </div>
+        <input type="submit">
+        <input type="reset">
+      </form>
+      <section>
+        <h2 class="h2__contacto">
+          Politicas de contacto
+        </h2>
+        <div>
+          <p class="textoComun__p">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Consequatur rem pariatur ducimus suscipit sit recusandae officiis debitis nulla? Ipsum doloremque necessitatibus atque molestiae sit voluptatibus nemo cupiditate rem alias in?
+            Officia nesciunt, optio quam eum ratione eius reiciendis delectus pariatur. Quasi omnis provident mollitia animi culpa tenetur labore dolor, natus laborum molestiae sequi voluptatibus illum, autem quam ipsa non dicta!
+            Ut aut quas laboriosam. Deleniti laborum sit doloremque ut repellendus. Provident impedit facilis nam ipsa cumque autem doloremque, soluta iste officiis vel alias aliquid sit deleniti deserunt fuga earum libero.
+            Corporis pariatur cumque possimus repellat fugiat itaque officia expedita laboriosam accusantium debitis, ducimus quas in, cum nesciunt rem molestiae aut id excepturi iusto dolorum sit vel? Nam quis impedit quod.
+            Eum consequatur sunt nesciunt? Et eum nam amet asperiores animi magni, saepe tempora nobis, esse, numquam earum quaerat! Aliquam asperiores ducimus in ullam veniam earum dignissimos delectus iste? Esse, assumenda.
+          </p>
 
-      <p class="noneDesk">Copyright 2022. Todos los derechos reservados</p>
+        </div>
+      </section>
 
-    </section>
-
-  </footer>
-</body>
+    </main>
+    <footer class="foot">
+      <ul class="foot__lista">
+        <!-- agregarle logos a estas paginas -->
+        <li class="foot__lista__item">
+          <a href="https://www.facebook.com/williamsccs/" target="_blank">
+            <img src="../imagenes/facebook-logo.png" alt="logo de facebook" class="icon">
+          </a>
+        </li>
+        <li class="foot__lista__item">
+          <a href="https://www.instagram.com/williamsccs" target="_blank">
+            <img src="../imagenes/instagram-logo.png" alt="logo de Instagram" class="icon">
+          </a>
+        </li>
+        <li class="foot__lista__item">
+          <a href="https://www.twitter.com/williamsccs" target="_blank">
+            <img src="../imagenes/twitter-logo.png" alt="logo de twitter" class="icon">
+          </a>
+        </li>
+        <li class="foot__lista__item">
+          <a href="https://www.WhatsApp.com/williamsccs" target="_blank">
+            <img src="../imagenes/whatsapp-logo.png" alt="logo de WhatsApp" class="icon">
+          </a>
+        </li>
+      </ul>
+      <section>
+        <p class="textFooter">© Copyright 2022 Motorola. All Rights Reserved.</p>
+      </section>
+    </footer>
+  </body>
 
 </html>
