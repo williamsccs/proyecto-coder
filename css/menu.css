@@ -1,0 +1,29 @@
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 28px;
+}
+
+.menu ul a {
+  color: var(--navColor);
+  font-weight: 500;
+  line-height:22.89px;
+}
+
+.menu ul a:hover {
+  color: var(--hoverNav);
+}
+
+a,
+a:link,
+a:visited {
+  text-decoration: none;
+}
+
+
+
+@media only screen and (max-width: 912px) {
+  .menu ul {
+    display: none;
+  }
+}
