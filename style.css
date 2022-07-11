@@ -1,267 +1,89 @@
-/* font-family: 'Source Code Pro', monospace;
-font-family: 'Source Code Pro', monospace; */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-*{
+@import "./css/grid.css";
+@import "./css/contacto.css";
+@import "./css/categories.css";
+@import "./css/offers.css";
+@import "./css/wrapper.css";
+@import "./css/button.css";
+@import "./css/header.css";
+@import "./css/menu.css";
+@import "./css/hero.css";
+@import "./css/footer.css";
+@import "./css/scrollbar.css";
+@import "./css/mobileMenu.css";
+
+
+/* VARIABLES */
+:root {
+    --bodyBg: linear-gradient(315deg, #7f5a83 0%, #0d324d 74%);
+    --fontBase: 'Be Vietnam', sans-serif;
+    --textColor: #f6f6f6;
+    --navColor: #d5d7dd;
+    --buttonBg: #4a2856;
+    --footerBg: linear-gradient(180deg,  #901b9d00 0%, #0d324d 74%);
+    --copyrightColor: #8C8C94;
+    --hoverNav: #9999a1;
+    --hoverButton: #c417d4b0;
+    --placeHolder: #A0A0A0;
+    --btnDesc: 700 1rem/1.511rem var(--fontBase);
+    --buttonShadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+    --headline1: 700 3.625rem/4.154rem var(--fontBase);
+    --testimonialName: 700 1.004rem/1.573rem var(--fontBase);
+    --buttonsFont: 500 0.824rem/1.204rem var(--fontBase);
+    --footerNav: 400 1rem/0.625rem var(--fontBase);
+}
+
+
+/* RESET Y PREPARADO DE LA ZONA DE TRABAJO */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
     margin: 0;
-    padding: 0;
-    /* color: rgb(0, 20, 35); */
-}
-:root{
-    --motoBlue: rgb(0, 20, 35);
-    --motoRed: rgb(255, 74, 70);
-    --motoWhite: rgb(255, 255, 255);
-    --paddingGeneral: 20px;
-    --fontMoto: 'Source Code Pro', monospace;
-}
-
-h1{
-    text-align: center;
-    font-family: var(--fontMoto);
-    display: inline-block;
-    font-family: var(--fontMoto);
- }
-.h2__contacto{
-     color: var(--motoRed);
-     text-align: center;
-     padding-top: 3em;
-     font-family: var(--fontMoto);
- }
- .h2__categorias{
-    color: var(--motoRed);
-    text-align: center;
-    padding-top: 3em;
-    font-family: var(--fontMoto);
- }
- .logo_h1{
-     display: inline-block;
-     /* vertical-align:top; */
-     margin: 20px;
-     vertical-align: middle
- }
- .logo{
-    width: 50px;
-    /* margin: 20px; */
-    display: inline-block;
-}
-.encabezado{
-    background-color: var(--motoBlue);
-    /* border: solid 5px red; */
-    color: var(--motoWhite);
-    
-}
-.encabezado__lista{
-    margin: 0 auto;
-    width: fit-content;
-    color: var(--motoWhite);
-}
-
-.encabezado__lista__item{
-    background-color: var(--motoBlue);
-    display: inline-block;
-    margin: 16px;
-    color: var(--motoWhite);
-}
-
-.navegacion ul li a{
-    color:var(--motoWhite);
-    /* aqui se subraya o se quita y otras cosas */
-    text-decoration: none;
-}
-
-.textoComun{
-    width: 100%;
-    background-color: var(--motoBlue);
-}
-
-.textoComun__p{
-    color: var(--motoRed);
-    /* background-color: rgb(0, 20, 35); */
-    font-family: var(--fontMoto);
-    overflow: visible;
-    width: 60%;
-    text-align: center;
-    margin-left: 20%;
-    margin-right: 20%;
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
-.icon{
-    width: 50px;
-    margin: 20px;
+    color: var(--textColor);
 }
 
 
-.foot ul li a{
-    color:var(--motoWhite);
-    /* aqui se subraya o se quita y otras cosas */
-    text-decoration: none;
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: var(--fontBase);
+    background-image: var(--bodyBg);
+    min-block-size: 100%;
+    background-repeat: no-repeat;
 }
 
-.foot{
-    background-color: var(--motoBlue);
-    /* border: solid 5px red; */
-    color: var(--motoWhite);
-}
-.foot__lista{
-    margin: 0 auto;
-    width: fit-content;
-    color: var(--motoWhite);
-}
-
-.foot__lista__item{
-    background-color: var(--motoBlue);
-    display: inline-block;
-    margin: 16px;
-    color: var(--motoWhite);
-}
-
-.textFooter{
-    /* display: flex; */
-    text-align: center;
-    font-weight: 800;
-    padding-bottom: 2%;
-    font-family: var(--fontMoto);
-}
-div.container{
-    width: 100%;
-    /* max-width: 960px; */
-    margin: 0 auto;
-}
-.imagenes{
-    padding-top: 2%;
-    padding-bottom: 2%;
-    width: 100%;
-    height: auto;
-}
-.main{
-    background-color: var(--motoBlue);
-    width: auto;
-    height: auto;
-}
-.background{
-    background-color: var(--motoBlue);
-}
-
-.direcciones{
-    color: var(--motoRed);
-    /* background-color: rgb(0, 20, 35); */
-    /* font-family: --fontMoto; */
-    overflow: visible;
-    width: 60%;
-    /* text-align: right; */
-    margin-left: 20%;
-    margin-right: 20%;
-    /* padding-top: 100px;
-    padding-bottom: 100px; */
-    font-family: var(--fontMoto);
-}
-
-.container__map{
-    justify-content:space-between;
-    display: inline;
-    flex-direction: row;
-}
-.mapa__direccion{
-    /* float: left; */
-    align-items:center;
-}
-.map{
+img,
+svg {
     display: block;
-    align-items:flex-end;
-    /* vertical-align: left; */
+    max-width: 100%;
 }
 
-
-/* .float-right {
-    float: right;
-    width: 65%;
-    vertical-align: middle; 
-    } */
-
-.titulo__contacto{
-    color: var(--motoRed);
-    padding: var(--paddingGeneral);
-    
-}
-.label__contacto{
-    color: var(--motoBlue);
-}
-.label__contacto__info{
-    color: var(--motoRed);
-    padding-left: 20px;
-}
-.formulario{
-    color: var(--motoBlue);
-}
-.etiqueta__contacto{
-    color: var(--motoRed);
-    font-weight: bold;
-    font-family: var(--fontMoto);
-    /* padding-left: var(--paddingGeneral); */
-    padding: var(--paddingGeneral);
+input,
+button {
+    font: inherit;
 }
 
-.input__form{
-    
-  padding:10px;
-  border:0;
-  box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
-}
-.block{
-    display: inline-block;
-}
-.label__input{
-    color: var(--motoRed);
-    font-family: var(--fontMoto);
-    font-weight: bold;
-    /* padding-left: var(--paddingGeneral); */
-    padding: var(--paddingGeneral);
-    /* display: inline-block; */
-    width: 140px;
-    text-align: right;
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
 }
 
-.styled__table {
-    /* border-collapse: collapse; */
-    margin-top: 5em;
-    /* font-size: 0.9em; */
-    font-family: sans-serif;
-    /* min-width: 400px; */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
-    border-color: var(--motoWhite);
-    padding: auto;
-    width: 85%;
-}
-.styled__table thead tr {
-    background-color: #009879;
-    color: #ffffff;
-    text-align: center;
+li {
+    list-style-type: none;
 }
 
-.styled__table tr th{
-    color: var(--motoWhite);
-    padding: 5%;
-    text-align: center;
+a,
+a:link,
+a:visited {
+    text-decoration: none;
 }
-.styled__table tr td{
-    padding: 5%;
-    color: var(--motoWhite);
-    text-align: center;
-}
-
-.categoria__container{
-    display: inline-block;
-}
-
-.categoria__imagenes{
-    width: 40%;
-}
-.categoria__texto{
-    color:var(--motoRed);
-    text-align: center;
-    width: 40%;
-    height: 30%;
-    font-family: var(--fontMoto);
-}
-
