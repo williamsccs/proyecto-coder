@@ -1,19 +1,9 @@
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  padding: 10px;
-}
-
-.grid-item {
-  padding: 20px;
-  font-size: 1.2rem;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-@media screen and (max-width: 600px) {
-  .grid-container {
-    grid-template-columns: auto;
-  }
+.motoBanner {
+  background-image: url("https://media3.giphy.com/media/55m6LyNylGLsQ07iCx/giphy.gif");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 30vh;
+  width: 100%;
+  margin-block-start: 4rem;
 }
