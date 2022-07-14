@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="trabajo con bootstrap 5 para coder house">
+  <meta name="author" content="Willims Fuentes">
+  <title>Motorola</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm nav-bg" id="mainNav">
+    <div class="container px-5">
+      <a class="navbar-brand fw-bold" href="#page-top"> <img src="./img/logoMoto.png" width='100px' height='auto'
+          alt="Logo motorola" /> </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        <i class="bi-list"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0 ">
+          <li class="nav-item ms-4"><a class="nav-link me-lg-3 fw-bolder" href="./index.html" class="nav-link"
+              aria-current="page">Inicio</a></li>
+          <li class="nav-item ms-4"><a class="nav-link me-lg-3 fw-bolder" href="./nosotros.html" class="nav-link">Notros</a></li>
+          <li class="nav-item ms-4"><a class="nav-link me-lg-3 fw-bolder" href="./contacto.html" class="nav-link">Contacto</a>
+          </li>
+          <li class="nav-item ms-4"><a class="nav-link me-lg-3 fw-bolder" href="./ofertas.html" class="nav-link">Ofertas</a></li>
+          <li class="nav-item ms-4"><a class="nav-link me-lg-3 fw-bolder" href="./smartTv.html" class="nav-link">Smart TV</a></li>
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+  <section class="contacto bg-light">
+    <div class=" container d-flex flex-wrap flex-row justify-content-between">
+      <div class="row">
+        <div class="col-lg-12 ">
+          <h2 class="section-heading text-uppercase ">Contacto</h2>
+          <h3 class="section-subheading text-muted">Ponte en contacto con nosotros</h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <form id="contactForm" name="sentMessage" novalidate>
+            <div class="row text-center">
+              <div class="col-md-9">
+                <div class="form-group">
+                  <input class="form-control my-4" id="name" type="text" placeholder="Nombre *" required
+                    data-validation-required-message="Por favor ingresa tu nombre.">
+                </div>
+                <div class="form-group">
+                  <input class="form-control my-4" id="email" type="email" placeholder="Correo *" required
+                    data-validation-required-message="Por favor ingresa tu correo.">
+                </div>
+              </div>
+              <div class="col-md-9">
+                <div class="form-group">
+                  <textarea class="form-control my-4" id="message" placeholder="Mensaje *" required
+                    data-validation-required-message="Por favor ingresa tu mensaje."></textarea>
+                </div>
+              </div>
+              <div class="col-lg-9 text-center">
+                <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase "
+                  type="submit">Enviar</button>
+  </section>
+  <footer class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="text-dark">&copy; Copyright 2022. Williams Fuentes.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
