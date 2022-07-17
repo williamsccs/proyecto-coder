@@ -7,7 +7,7 @@
   }
   
   ::-webkit-scrollbar-thumb {
-    background: map-get($map: $colores, $key: "buttonBg");;
+    background: map-get($map: $colores, $key: "buttonBg");
     border-radius: 30px;
   
     &:hover {

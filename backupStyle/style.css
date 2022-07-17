@@ -44,7 +44,7 @@
 
 * {
     margin: 0;
-    color: map-get($map: $colores, $key: "textColor");;
+    color: map-get($map: $colores, $key: "textColor");
 }
 
 
@@ -52,7 +52,7 @@ body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     font-family: $fontBase;
-    background-image: map-get($map: $colores, $key: "bodyBg");;
+    background-image: map-get($map: $colores, $key: "bodyBg");
     min-block-size: 100%;
     background-repeat: no-repeat;
 }

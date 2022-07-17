@@ -1,9 +1,9 @@
 footer {
-  background-image: map-get($map: $colores, $key: "footerBg");;
+  background-image: map-get($map: $colores, $key: "footerBg");
 }
 
 .footeerNav {
-  background-color: map-get($map: $colores, $key: "footerBg");;
+  background-color: map-get($map: $colores, $key: "footerBg");
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -28,7 +28,7 @@ footer {
     padding: 0;
 
     li a i {
-      color: map-get($map: $colores, $key: "textColor");;
+      color: map-get($map: $colores, $key: "textColor");
 
       &:hover {
         color: map-get($map: $colores, $key: "hoverButton");
@@ -46,7 +46,7 @@ footer {
 
   ul {
     li a {
-      color: map-get($map: $colores, $key: "textColor");;
+      color: map-get($map: $colores, $key: "textColor");
       font: var(-footerNav);
 
       &:hover {
@@ -71,7 +71,7 @@ ul.ul2 {
 }
 
 .noneDesk {
-  color: map-get($map: $colores, $key: "copyrightColor");;
+  color: map-get($map: $colores, $key: "copyrightColor");
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -131,7 +131,7 @@ ul.ul2 {
   .copyR {
     justify-content: center;
     display: flex;
-    color: map-get($map: $colores, $key: "copyrightColor");;
+    color: map-get($map: $colores, $key: "copyrightColor");
     padding: 7%;
   }
 
