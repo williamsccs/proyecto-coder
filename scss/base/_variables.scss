@@ -2,8 +2,9 @@
 
 $fontBase: 'Be Vietnam', sans-serif;
 $btnDesc: 700 1rem/1.511rem $fontBase;
-$btnDesc: 700 1rem/1.511rem $fontBase;
 $buttonShadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+$buttonShadow-2: 0px 4px 8px rgba(242, 97, 59, 0.5);
+$buttonShadow-3: 0px 4px 8px rgba(0, 0, 0, 0.25);
 $headline1: 700 3.625rem/4.154rem $fontBase;
 $testimonialName: 700 1.004rem/1.573rem $fontBase;
 $buttonsFont: 500 0.824rem/1.204rem $fontBase;
@@ -11,6 +12,8 @@ $footerNav: 400 1rem/0.625rem $fontBase;
 
 $colores: (
     "bodyBg": linear-gradient(315deg, #7f5a83 0%, #0d324d 74%),
+    "iconColor": #FFFFFF,
+    // "footerBg": #1E1E26,
     "textColor": #f6f6f6,
     "navColor": #d5d7dd,
     "buttonBg": #4a2856,
@@ -22,3 +25,5 @@ $colores: (
 
 )
 
+
+// --hoverButton: #f98f76;

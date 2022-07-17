@@ -39,8 +39,8 @@ a {
   background-color: #4a2856;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
-  font: var(--buttonFont);
-  color: var(--iconColor); }
+  font: 500 0.824rem/1.204rem "Be Vietnam", sans-serif;
+  color: #FFFFFF; }
 
 .buttonGetStarted1:hover {
   background-color: #c417d4b0; }
@@ -51,8 +51,8 @@ a {
   background-color: #4a2856;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
-  font: var(--buttonFont);
-  color: var(--iconColor);
+  font: 500 0.824rem/1.204rem "Be Vietnam", sans-serif;
+  color: #FFFFFF;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -65,10 +65,10 @@ a {
 .buttonGetStarted3 {
   width: 134px;
   height: 44px;
-  background-color: var(--iconColor);
+  background-color: #FFFFFF;
   box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
   border-radius: 50px;
-  font: var(--buttonFont);
+  font: 500 0.824rem/1.204rem "Be Vietnam", sans-serif;
   color: var(--bannerBottomColor);
   display: flex;
   flex-direction: row;
@@ -81,7 +81,7 @@ a {
 
 .btn-description {
   background-color: var(--chartBg);
-  color: var(--iconColor);
+  color: #FFFFFF;
   font: 700 1rem/1.511rem "Be Vietnam", sans-serif;
   border-radius: 30px;
   padding: 10px 25px; }
@@ -288,10 +288,10 @@ body {
   margin-block-start: 5%;
   animation: slide-in 1000ms; }
   .hero-description h1 {
-    font: 700 3.625rem/4.154rem "Be Vietnam", sans-serif;
+    font: var(--headline1);
     color: var(--titleColor); }
   .hero-description p {
-    font: 500 1.035rem/1.626rem "Be Vietnam", sans-serif;
+    font: 500 1.035rem/1.626rem var(--fontBase);
     width: 23.5vw;
     margin-block: 2em 2em; }
 
