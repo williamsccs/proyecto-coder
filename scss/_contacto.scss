@@ -26,7 +26,7 @@
     label {
       display: flex;
       flex-direction: column;
-      font: var(--buttonsFont);
+      font: $buttonsFont;
     }
   
     input, textarea {

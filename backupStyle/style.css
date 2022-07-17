@@ -26,12 +26,12 @@
     --hoverNav: #9999a1;
     --hoverButton: #c417d4b0;
     --placeHolder: #A0A0A0;
-    --btnDesc: 700 1rem/1.511rem var(--fontBase);
+    --btnDesc: 700 1rem/1.511rem $fontBase;
     --buttonShadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
-    --headline1: 700 3.625rem/4.154rem var(--fontBase);
-    --testimonialName: 700 1.004rem/1.573rem var(--fontBase);
-    --buttonsFont: 500 0.824rem/1.204rem var(--fontBase);
-    --footerNav: 400 1rem/0.625rem var(--fontBase);
+    --headline1: 700 3.625rem/4.154rem $fontBase;
+    --testimonialName: 700 1.004rem/1.573rem $fontBase;
+    --buttonsFont: 500 0.824rem/1.204rem $fontBase;
+    --footerNav: 400 1rem/0.625rem $fontBase;
 }
 
 
@@ -44,15 +44,15 @@
 
 * {
     margin: 0;
-    color: var(--textColor);
+    color: map-get($map: $colores, $key: "textColor");;
 }
 
 
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
-    font-family: var(--fontBase);
-    background-image: var(--bodyBg);
+    font-family: $fontBase;
+    background-image: map-get($map: $colores, $key: "bodyBg");;
     min-block-size: 100%;
     background-repeat: no-repeat;
 }

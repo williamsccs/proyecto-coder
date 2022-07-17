@@ -18,7 +18,7 @@
   .menu-toggler-line {
     width: 60%;
     height: 5px;
-    background: var(--navColor);
+    background: map-get($map: $colores, $key: "navColor");;
     margin: 0 0 4px 0px;
     position: relative;
     transition: all .40s ease-out;
@@ -85,7 +85,7 @@
     transition: all .25s ease-out;
   
     &:hover, &:focus, &:active {
-      color: var(--buttonBg);
+      color: map-get($map: $colores, $key: "buttonBg");;
     }
   }
   

@@ -4,12 +4,12 @@
   gap: 28px;
 
   a {
-    color: var(--navColor);
+    color: map-get($map: $colores, $key: "navColor");;
     font-weight: 500;
     line-height: 22.89px;
 
     &:hover {
-      color: var(--hoverNav);
+      color: map-get($map: $colores, $key: "hoverNav");
     }
   }
 }

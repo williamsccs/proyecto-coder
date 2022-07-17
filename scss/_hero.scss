@@ -13,12 +13,12 @@
   animation: slide-in 1000ms;
 
   h1 {
-    font: var(--headline1);
+    font: $headline1;
     color: var(--titleColor);
   }
 
   p {
-    font: 500 1.035rem / 1.626rem var(--fontBase);
+    font: 500 1.035rem / 1.626rem $fontBase;
     width: 23.5vw;
     margin-block: 2em 2em;
   }
