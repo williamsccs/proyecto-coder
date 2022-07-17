@@ -1,141 +1,141 @@
 footer {
-    background-image: var(--footerBg);
-  }
-  
-  .footeerNav {
-    background-color: var(--footerBg);
+  background-image: var(--footerBg);
+}
+
+.footeerNav {
+  background-color: var(--footerBg);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 34.6vh;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: inherit;
+  align-content: center;
+  justify-content: space-evenly;
+
+  ul {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 34.6vh;
+    justify-content: space-between;
+    padding: 0;
+
+    li a i {
+      color: var(--textColor);
+
+      &:hover {
+        color: var(--hoverButton);
+      }
+    }
   }
-  
-  .left {
+}
+
+.center {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 19vw;
+  justify-content: space-between;
+
+  ul {
+    li a {
+      color: var(--textColor);
+      font: var(-footerNav);
+
+      &:hover {
+        color: var(--hoverButton);
+      }
+    }
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    height: inherit;
-    align-content: center;
-    justify-content: space-evenly;
-  
-    ul {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      padding: 0;
-  
-      li a i {
-        color: var(--textColor);
-  
-        &:hover {
-          color: var(--hoverButton);
-        }
-      }
-    }
-  }
-  
-  .center {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 19vw;
     justify-content: space-between;
-  
+    height: 19vh;
+  }
+}
+
+ul.ul2 {
+  padding: 0 0 11%;
+}
+
+.copyR {
+  display: none;
+}
+
+.noneDesk {
+  color: var(--copyrightColor);
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.left img {
+  filter: invert(100%);
+}
+
+@media only screen and (max-width: 1150px) {
+  footer {
+    height: 50vh;
+  }
+
+  .footeerNav {
+    height: 40.6vh;
+  }
+
+  .center {
+    width: 30%;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .footeerNav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .left {
+    flex: 0;
+    flex-direction: column-reverse;
+    align-content: center;
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+
     ul {
-      li a {
-        color: var(--textColor);
-        font: var(-footerNav);
-  
-        &:hover {
-          color: var(--hoverButton);
-        }
-      }
-  
-      display: flex;
-      flex-direction: column;
-      flex-wrap: wrap;
-      justify-content: space-between;
-      height: 19vh;
+      margin-block-end: 15%;
+    }
+
+    img {
+      align-self: center;
     }
   }
-  
-  ul.ul2 {
-    padding: 0 0 11%;
-  }
-  
-  .copyR {
+
+  .center {
     display: none;
   }
-  
-  .noneDesk {
-    color: var(--copyrightColor);
+
+  .iconsSocial ul li {
+    margin: 0 10px;
+    font-size: 1.5rem;
+  }
+
+  .copyR {
+    justify-content: center;
     display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+    color: var(--copyrightColor);
+    padding: 7%;
   }
-  
-  .left img {
-    filter: invert(100%);
+
+  .noneDesk {
+    display: none;
   }
-  
-  @media only screen and (max-width: 1150px) {
-    footer {
-      height: 50vh;
-    }
-  
-    .footeerNav {
-      height: 40.6vh;
-    }
-  
-    .center {
-      width: 30%;
-    }
-  }
-  
-  @media only screen and (max-width: 912px) {
-    .footeerNav {
-      display: flex;
-      flex-direction: column;
-      text-align: center;
-    }
-  
-    .left {
-      flex: 0;
-      flex-direction: column-reverse;
-      align-content: center;
-      width: 90%;
-      flex-wrap: wrap;
-      justify-content: center;
-  
-      ul {
-        margin-block-end: 15%;
-      }
-  
-      img {
-        align-self: center;
-      }
-    }
-  
-    .center {
-      display: none;
-    }
-  
-    .iconsSocial ul li {
-      margin: 0 10px;
-      font-size: 1.5rem;
-    }
-  
-    .copyR {
-      justify-content: center;
-      display: flex;
-      color: var(--copyrightColor);
-      padding: 7%;
-    }
-  
-    .noneDesk {
-      display: none;
-    }
-  }
+}
