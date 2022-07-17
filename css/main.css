@@ -14,14 +14,22 @@ body {
   min-block-size: 100%;
   background-repeat: no-repeat; }
 
-img, svg {
+img,
+svg {
   display: block;
   max-width: 100%; }
 
-input, button {
+input,
+button {
   font: inherit; }
 
-p, h1, h2, h3, h4, h5, h6 {
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   overflow-wrap: break-word; }
 
 li {
@@ -127,7 +135,8 @@ a {
     display: flex;
     flex-direction: column;
     font: 500 0.824rem/1.204rem "Be Vietnam", sans-serif; }
-  .form input, .form textarea {
+  .form input,
+  .form textarea {
     border-radius: 0.5rem;
     padding-inline-end: 1rem;
     padding-inline-start: 1rem;
@@ -443,7 +452,9 @@ a {
   opacity: .98; }
 
 @media only screen and (min-width: 912px) {
-  .input-toggler, .menu-toggler, .sidebar {
+  .input-toggler,
+  .menu-toggler,
+  .sidebar {
     display: none; } }
 
 .grid-container {

@@ -17,7 +17,8 @@
 a {
   text-decoration: none;
 
-  &:link, &:visited {
+  &:link,
+  &:visited {
     text-decoration: none;
   }
 }
