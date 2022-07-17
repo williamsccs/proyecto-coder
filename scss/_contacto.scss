@@ -1,0 +1,58 @@
+.containerForm {
+    text-align: center;
+  }
+  
+  .contacTitle {
+    margin-block-end: 5rem;
+  }
+  
+  .map {
+    width: 100%;
+    height: 100%;
+    margin-block-end: 5rem;
+  }
+  
+  .form-content {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-inline-size: 33rem;
+    margin: auto;
+  }
+  
+  .form {
+    margin-block-end: 5rem;
+  
+    label {
+      display: flex;
+      flex-direction: column;
+      font: var(--buttonsFont);
+    }
+  
+    input, textarea {
+      border-radius: 0.5rem;
+      padding-inline-end: 1rem;
+      padding-inline-start: 1rem;
+      padding-block-end: 0.75rem;
+      padding-block-end: 0.75rem;
+      margin-block-start: 0.5rem;
+    }
+  }
+  
+  .btnContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-inline-size: 33rem;
+    margin: auto;
+  }
+  
+  .form p {
+    margin: 0;
+    text-align: center;
+  }
+  
+  .legals {
+    text-align: justify;
+    padding: 1rem;
+  }
